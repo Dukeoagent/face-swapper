@@ -15,8 +15,6 @@ swapper = insightface.model_zoo.get_model('inswapper_128.onnx',download=False,do
 img1_path = 'johncena.jpg'
 himymLocation = 'himym.jpg'
 maxlocation = 'maxverstappen.jpg'
-print(img1_path)
-
 
 # Load the image using OpenCV
 img = cv.imread(img1_path)
